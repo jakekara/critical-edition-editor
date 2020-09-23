@@ -1,9 +1,9 @@
 interface Defaults {
-    localStorageKey: string
+  localStorageKey: string;
 }
 
 const defaults: Defaults = {
-    localStorageKey: "editor-data"
-}
+  localStorageKey: "editor-data",
+};
 
-export { defaults }
+export { defaults };
