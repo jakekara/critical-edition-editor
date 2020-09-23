@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettify": "prettier --write src"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,6 +41,7 @@
   "devDependencies": {
     "@editorjs/editorjs": "^2.18.0",
     "@editorjs/paragraph": "^2.7.0",
+    "prettier": "^2.1.2",
     "react-editor-js": "file:../react-editor-js"
   }
 }
