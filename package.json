@@ -43,6 +43,6 @@
     "@editorjs/editorjs": "^2.18.0",
     "@editorjs/paragraph": "^2.7.0",
     "prettier": "^2.1.2",
-    "react-editor-js": "file:../react-editor-js"
+    "react-editor-js": "^1.6.2"
   }
 }
