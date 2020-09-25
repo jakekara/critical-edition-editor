@@ -12,3 +12,7 @@ editor-js-footnotes that was developed by this author for this application.
 This app is created with create-react-app. It will be incorporated into a
 desktop version based on Electron in order to facilitate creating project
 folders locally and moving local asset files into these folders.
+
+## Live demo
+
+https://5f6e6d4128051a00084f205b--critical-editions-editor.netlify.app/
