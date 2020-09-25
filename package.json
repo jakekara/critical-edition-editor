@@ -42,6 +42,7 @@
   "devDependencies": {
     "@editorjs/editorjs": "^2.18.0",
     "@editorjs/paragraph": "^2.7.0",
+    "gapi": "0.0.3",
     "prettier": "^2.1.2",
     "react-editor-js": "^1.6.2"
   }
