@@ -15,4 +15,8 @@ folders locally and moving local asset files into these folders.
 
 ## Live demo
 
-https://5f6e6d4128051a00084f205b--critical-editions-editor.netlify.app/
+There are two netlify demos available. One for the main branch and one for the
+add-material-ui branch:
+
+[main](https://critical-editions-editor.netlify.app/)
+[add-material-ui](https://add-material-ui--critical-editions-editor.netlify.app/)
