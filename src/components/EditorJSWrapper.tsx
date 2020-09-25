@@ -5,6 +5,7 @@ import EditorJs from "react-editor-js";
 import { Footnote, FootnoteMaker } from "editorjs-footnotes";
 import { API, OutputData } from "@editorjs/editorjs";
 
+/** */
 export function EditorJSWrapper(props: {
   data: any;
   saveData(data: any): void;
