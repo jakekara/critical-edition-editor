@@ -5,6 +5,7 @@ import { API, OutputData } from "@editorjs/editorjs";
 
 import styles from "./App.module.css";
 import * as api from "./api";
+import { GDrive } from "./components/GDrive";
 
 function App() {
   const [data, setData] = useState<any>(api.loadTemporaryData());
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <div className={styles["App"]}>
+      <GDrive />
       <button
         id="save"
         onClick={async () => {
