@@ -1168,6 +1168,11 @@
     codex-notifier "^1.1.2"
     codex-tooltip "^1.0.1"
 
+"@editorjs/header@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/header/-/header-2.6.0.tgz#64d1c6af7eefd7ad272d12dbf7ccef8b56771240"
+  integrity sha512-1psNX/irDjJ8Bp1l7DjkYWz7IBtjVIRANk7kPkNoY2CfAeeCFYbJmMlXdqTF2WeAjYv2WMy5ey/aR5fTccgFaw==
+
 "@editorjs/paragraph@^2.7.0":
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/@editorjs/paragraph/-/paragraph-2.8.0.tgz#11cc381fcafaf8b9160517ce65d59eee93fc4af9"

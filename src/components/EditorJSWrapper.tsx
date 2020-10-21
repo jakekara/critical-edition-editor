@@ -2,9 +2,12 @@ import React from "react";
 
 import EditorJs from "react-editor-js";
 import * as Paragraph from "editorjs-paragraph-with-alignment";
+import * as Header from "@editorjs/header";
 
 import { Footnote, FootnoteMaker } from "editorjs-footnotes";
 import { API, OutputData } from "@editorjs/editorjs";
+
+import styles from "./EditorJSWrapper.module.css";
 
 /** */
 export function EditorJSWrapper(props: {
@@ -18,6 +21,7 @@ export function EditorJSWrapper(props: {
       autofocus
       holder="editor-js-holder-1"
       tools={{
+        header: Header,
         paragraph: {
           class: Paragraph,
           inlineToolbar: true,
@@ -37,7 +41,7 @@ export function EditorJSWrapper(props: {
         console.log("Saving data", data);
       }}
     >
-      <div id="editor-js-holder-1" />
+      <div className={styles.Holder} id="editor-js-holder-1" />
     </EditorJs>
   );
 }
