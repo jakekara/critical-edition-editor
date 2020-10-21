@@ -1,4 +1,4 @@
-import loadTemporaryData from "./temporaryData/loadTemporaryData";
-import saveTemporaryData from "./temporaryData/saveTemporaryData";
+import loadTemporaryData from "./TemporaryData/loadTemporaryData";
+import saveTemporaryData from "./TemporaryData/saveTemporaryData";
 
 export { loadTemporaryData, saveTemporaryData };
