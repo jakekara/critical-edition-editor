@@ -1,6 +1,7 @@
 import React from "react";
 
 import EditorJs from "react-editor-js";
+import * as Paragraph from "editorjs-paragraph-with-alignment";
 
 import { Footnote, FootnoteMaker } from "editorjs-footnotes";
 import { API, OutputData } from "@editorjs/editorjs";
@@ -17,6 +18,10 @@ export function EditorJSWrapper(props: {
       autofocus
       holder="editor-js-holder-1"
       tools={{
+        paragraph: {
+          class: Paragraph,
+          inlineToolbar: true,
+        },
         FootnoteMaker,
         footnoteParagraph: {
           class: Footnote,
