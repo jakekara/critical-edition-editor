@@ -1,0 +1,10 @@
+.ButtonRow{
+    display:flex;
+    justify-content: flex-end;
+
+    padding: 20px 0px 0px 0px;
+}
+
+.ButtonRow .ButtonWrapper{
+        flex: 1;
+}

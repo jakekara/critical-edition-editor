@@ -1,8 +1,15 @@
 import React, { useState } from "react";
-import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
+import {
+  makeStyles,
+  Theme,
+  createStyles,
+  // StylesProvider,
+} from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 import Button from "@material-ui/core/Button";
 import EditorJS from "@editorjs/editorjs";
+import styles from "./ControlBar.module.css";
+
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     paper: {
@@ -48,19 +55,27 @@ export default function ControlBar(props: {
   const modalBody = (
     <div style={modalStyle} className={classes.paper}>
       <div>Really delete your draft?</div>
-      <Button
-        variant="contained"
-        color="secondary"
-        onClick={() => {
-          props.clearData();
-          setClosed();
-        }}
-      >
-        Yes
-      </Button>
-      <Button variant="contained" color="primary" onClick={setClosed}>
-        No
-      </Button>
+      <div className={styles.ButtonRow}>
+        <div className={styles.ButtonWrapper}>
+          {" "}
+          <Button
+            variant="contained"
+            color="secondary"
+            onClick={() => {
+              props.clearData();
+              setClosed();
+            }}
+          >
+            Yes
+          </Button>
+        </div>
+        <div className={styles.ButtonWraper}>
+          {" "}
+          <Button variant="contained" color="primary" onClick={setClosed}>
+            No
+          </Button>
+        </div>
+      </div>
     </div>
   );
   return (
