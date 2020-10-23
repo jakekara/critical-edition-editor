@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import EditorJs from "react-editor-js";
 import * as Paragraph from "editorjs-paragraph-with-alignment";
 import * as Header from "@editorjs/header";
-import EditorJS from "@editorjs/editorjs";
+import { OutputData } from "@editorjs/editorjs";
 
 import { Footnote, FootnoteMaker } from "editorjs-footnotes";
-import { API, OutputData } from "@editorjs/editorjs";
+// import { API, OutputData } from "@editorjs/editorjs";
 
 import styles from "./EditorJSWrapper.module.css";
 import ControlBar from "./ControlBar";
@@ -17,7 +17,7 @@ export function EditorJSWrapper(props: {
   data: any;
   saveData(data: any): void;
 }) {
-  const [instanceRef, setInstanceRef] = useState<EditorJS>();
+  const [instanceRef, setInstanceRef] = useState<any>();
 
   const clearData = () => {
     if (instanceRef) {
@@ -52,7 +52,7 @@ export function EditorJSWrapper(props: {
               inlineToolbar: ["link", "bold", "italic"], // don't allow footnotes to add footnotes
             },
           }}
-          onChange={(_: API, data?: OutputData) => {
+          onChange={(_: any, data?: OutputData) => {
             if (!data) {
               return;
             }

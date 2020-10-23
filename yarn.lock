@@ -4087,10 +4087,10 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
-editorjs-footnotes@0.0.3-alpha:
-  version "0.0.3-alpha"
-  resolved "https://registry.yarnpkg.com/editorjs-footnotes/-/editorjs-footnotes-0.0.3-alpha.tgz#0a21020230f08a5791d370b6df1f87a5a6ab98bf"
-  integrity sha512-G9CXdpKNtYJz1jPHLyNAO6Tq1kDVDY+um8+yOZTwd4hI8PgFq88L7vZgAVRKq0h5+PiT8+LUccF8GJqYI1ZZgg==
+editorjs-footnotes@0.0.4-alpha:
+  version "0.0.4-alpha"
+  resolved "https://registry.yarnpkg.com/editorjs-footnotes/-/editorjs-footnotes-0.0.4-alpha.tgz#369905228baa303396067b91587b89b1ed6b35a5"
+  integrity sha512-pcO3bFtbpVVSxP7sVzl1unoXRnXOo6Uv6O3gbdDRiibUFpZAXwNmFQuG99xUYFIPubuY9bFd2ANSV+GdzTiluQ==
   dependencies:
     "@editorjs/paragraph" "^2.7.0"
 
@@ -8956,10 +8956,8 @@ react-dom@^16.13.1:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-editor-js@^1.6.2:
+react-editor-js@../react-editor-js:
   version "1.6.2"
-  resolved "https://registry.yarnpkg.com/react-editor-js/-/react-editor-js-1.6.2.tgz#25fb4a3451d314c510a6c26b2b95af27a4affbb7"
-  integrity sha512-bwPJiR0D9LuCpEQZUHNIp0hLmy+l+GSH4XUPcFtMr/PpTPoUhwinMvpAytqLIchXgSIwTu3TGPgv/BlpsVstbQ==
 
 react-error-overlay@^6.0.7:
   version "6.0.7"
