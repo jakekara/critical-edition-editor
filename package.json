@@ -16,7 +16,7 @@
     "editorjs-paragraph-with-alignment": "^1.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-editor-js": "../react-editor-js",
+    "react-editor-js": "^1.6.2",
     "react-scripts": "3.4.3",
     "typescript": "~3.7.2"
   },
