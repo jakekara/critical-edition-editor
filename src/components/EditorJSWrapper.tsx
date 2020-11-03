@@ -45,6 +45,9 @@ export function EditorJSWrapper(props: {
             paragraph: {
               class: Paragraph,
               inlineToolbar: true,
+              config: {
+                placeholder: "Click here to start typing",
+              },
             },
             FootnoteMaker,
             footnoteParagraph: {
