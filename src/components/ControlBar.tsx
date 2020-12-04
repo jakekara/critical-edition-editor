@@ -39,6 +39,7 @@ function getModalStyle() {
 export default function ControlBar(props: {
   instanceRef: EditorJS;
   clearData: () => void;
+  sortBlocks: () => void;
 }) {
   const [showModal, setShowModal] = useState<boolean>(false);
 
@@ -85,6 +86,9 @@ export default function ControlBar(props: {
       </Modal>
       <Button onClick={setOpen} variant="contained">
         Clear
+      </Button>
+      <Button variant="contained" onClick={props.sortBlocks}>
+        Sort
       </Button>
     </div>
   );
