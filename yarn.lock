@@ -1764,7 +1764,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.9.0":
+"@types/react@*":
   version "16.9.53"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.53.tgz#40cd4f8b8d6b9528aedd1fff8fcffe7a112a3d23"
   integrity sha512-4nW60Sd4L7+WMXH1D6jCdVftuW7j4Za6zdp6tJ33Rqv0nk1ZAmQKML9ZLD4H0dehA3FZxXR/GM8gXplf82oNGw==
@@ -4092,8 +4092,10 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
-editorjs-footnotes@../../editorjs-dev/editorjs-dev/editorjs-footnotes:
-  version "0.0.4-alpha"
+editorjs-footnotes@0.0.5-alpha:
+  version "0.0.5-alpha"
+  resolved "https://registry.yarnpkg.com/editorjs-footnotes/-/editorjs-footnotes-0.0.5-alpha.tgz#23671363ff9cefb800d1bd094a7782b4d53e2cee"
+  integrity sha512-baOvYuEOtVbaUc1rZhZ1yhdNGlv9sW4Qcj2afInihlxljK9IDwkQ8D0BCoyDctWXhnO0YDPwtkKrRRRXkohPPQ==
   dependencies:
     "@editorjs/paragraph" "^2.7.0"
 
