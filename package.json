@@ -4,6 +4,7 @@
   "private": true,
   "license": "GPL-3.0",
   "dependencies": {
+    "@editorjs/delimiter": "^1.2.0",
     "@editorjs/header": "^2.6.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -12,7 +13,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
-    "editorjs-footnotes": "0.0.4-alpha",
+    "editorjs-footnotes": "../../editorjs-dev/editorjs-dev/editorjs-footnotes",
     "editorjs-paragraph-with-alignment": "^1.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

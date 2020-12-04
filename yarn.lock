@@ -1160,6 +1160,11 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
+"@editorjs/delimiter@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/delimiter/-/delimiter-1.2.0.tgz#5075f1a3e68765cfb6aec8694b316d81e2b41607"
+  integrity sha512-GKsCFPk85vH5FuCuVQ48NTLc9hk0T3DsBH9zABaicTYIJayFcUa8N4/Y+L3i4tduzDqqyvoxkv+5n43GmC5gEA==
+
 "@editorjs/editorjs@^2.18.0":
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.19.0.tgz#ac98f7b1e627c89b51c4430f6aa325e873ade7fc"
@@ -4087,10 +4092,8 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
-editorjs-footnotes@0.0.4-alpha:
+editorjs-footnotes@../../editorjs-dev/editorjs-dev/editorjs-footnotes:
   version "0.0.4-alpha"
-  resolved "https://registry.yarnpkg.com/editorjs-footnotes/-/editorjs-footnotes-0.0.4-alpha.tgz#369905228baa303396067b91587b89b1ed6b35a5"
-  integrity sha512-pcO3bFtbpVVSxP7sVzl1unoXRnXOo6Uv6O3gbdDRiibUFpZAXwNmFQuG99xUYFIPubuY9bFd2ANSV+GdzTiluQ==
   dependencies:
     "@editorjs/paragraph" "^2.7.0"
 

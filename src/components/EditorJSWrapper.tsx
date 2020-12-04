@@ -1,11 +1,18 @@
 import React, { useState } from "react";
 
 import EditorJs from "react-editor-js";
-import * as Paragraph from "editorjs-paragraph-with-alignment";
+// import * as Paragraph from "editorjs-paragraph-with-alignment";
 import * as Header from "@editorjs/header";
+import * as Delimiter from "@editorjs/delimiter";
 import { OutputData } from "@editorjs/editorjs";
 
-import { Footnote, FootnoteMaker } from "editorjs-footnotes";
+import {
+  Footnote,
+  FootnoteMaker,
+  TypedParagraph,
+  sortBlocks,
+} from "editorjs-footnotes";
+
 // import { API, OutputData } from "@editorjs/editorjs";
 
 import styles from "./EditorJSWrapper.module.css";
@@ -29,7 +36,13 @@ export function EditorJSWrapper(props: {
     <div>
       {" "}
       {instanceRef ? (
-        <ControlBar instanceRef={instanceRef} clearData={clearData} />
+        <ControlBar
+          sortBlocks={() => {
+            sortBlocks(instanceRef);
+          }}
+          instanceRef={instanceRef}
+          clearData={clearData}
+        />
       ) : null}
       <Paper>
         <EditorJs
@@ -42,8 +55,11 @@ export function EditorJSWrapper(props: {
           holder="editor-js-holder-1"
           tools={{
             header: Header,
+            delimiter: {
+              class: Delimiter,
+            },
             paragraph: {
-              class: Paragraph,
+              class: TypedParagraph,
               inlineToolbar: true,
               config: {
                 placeholder: "Click here to start typing",
